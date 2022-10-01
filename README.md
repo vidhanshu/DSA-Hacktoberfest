@@ -1,4 +1,6 @@
-Please maintain the folder structure as specified
+**Rules**
+
+1) Please maintain the folder structure as specified
 
 ```
 --Array
@@ -28,4 +30,9 @@ Queue
 |                |__Other....
 ``` 
 
+2) Please commit the changes with meaningful message
+3) before creating PR please message on the issue
 
+
+****CREATE NEW ISSUES BY YOURSELF I WILL ASSIGN TO YOU WITH `Hacktoberfest` LABEL****
+💖Happy contribution💖
