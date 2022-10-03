@@ -1,4 +1,4 @@
-# Implementation of counting sort in Python3
+# Implementation of linear search in Python3
 
 def linear_search(arr, target):
     i=0
