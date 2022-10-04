@@ -1,14 +1,22 @@
-def linearsearch(l, num):
-    for i in l:
-        if num == i:
-            return True
-    return False
+
+class Node:
+    def __init__(self, item):
+        self.item = item
+        self.next = None
 
 
-l = list(map(int, input("Enter the list: ").split()))
-n = int(input("Entered the number to be searched: "))
+class LinkedList:
+    def __init__(self):
+        self.head = None
 
-if linearsearch(l, n):
-    print("Number found")
-else:
-    print("Number not found")
+
+if __name__ == '__main__':
+    linked_list = LinkedList()
+    linked_list.head = Node(1)
+    second = Node(2)
+    third = Node(3)
+    linked_list.head.next = second
+    second.next = third
+    while linked_list.head != None:
+        print(linked_list.head.item, end=" ")
+        linked_list.head = linked_list.head.next
